@@ -1,0 +1,349 @@
+/* pops */
+
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popup.active .overlay{
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* popups2 */
+
+.popups .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popups .content{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popups.active .overlay{
+    display: block;
+}
+
+.popups.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+/* popups3 */
+
+.popupss .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popupss .content{
+    position: absolute;
+    top: 370%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popupss.active .overlay{
+    display: block;
+}
+
+.popupss.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* popups3 */
+
+.popupsss .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popupsss .content{
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popupsss.active .overlay{
+    display: block;
+}
+
+.popupsss.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* popups4 */
+
+.popupsss .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popupsss .content{
+    position: absolute;
+    top: 570%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popupsss.active .overlay{
+    display: block;
+}
+
+.popupsss.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* popups5 */
+
+.popupssss .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popupssss .content{
+    position: absolute;
+    top: 570%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.popupssss.active .overlay{
+    display: block;
+}
+
+.popupsss.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+#allinputs input
+{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#allinputs textarea
+{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.getin h1{
+    color: RED;
+}
+
+.msgbtn button{
+    background-color: aqua;
+    color: black;
+    font-weight: 600;
+    height: 45px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.msgbtn button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+#allinputs input:placeholder-shown
+{
+    font-size: 15px;
+}
+
+#allinputs textarea:placeholder-shown
+{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .popup .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background: darkmagenta;
+        border-radius: 10px;
+        width: 250px;
+        height: 320px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+
+    #allinputs input
+    {
+        width: 150px;
+        height: 25px;
+        margin-bottom: -10px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    #allinputs textarea
+    {
+        width: 150px;
+        height: 40px;
+        border-radius: 12px;
+        margin-bottom: -10px;
+        text-align: center;
+    }
+
+    .msgbtn button{
+        background-color: orangered;
+        height: 30px;
+        width: 70px;
+        border-radius: 15px;
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    
+    .msgbtn button:hover{
+        cursor: pointer;
+        background-color: aqua;
+    }
+    
+    #allinputs input:placeholder-shown
+    {
+        font-size: 10px;
+    }
+    
+    #allinputs textarea:placeholder-shown
+    {
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #boxes{
+        width: 420px;
+        margin-left: -100px;
+    }
+    
+}
+
