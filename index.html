@@ -1007,20 +1007,23 @@ const GOOGLE_REVIEWS = "https://www.google.com/search?q=AP+Guppy+World+Uthangara
 
 const PRODUCTS = [
   /* ---------- GUPPIES · ₹150 / pair ---------- */
+  
+  {id:"g-albino-red",     cat:"guppy", name:"Albino Full Red",      desc:"Fiery red, red-eyed albino",   price:150, unit:"pair", img:"images/products/guppy-albino-red.png",    video:"https://youtube.com/shorts/z3SI9mQlIbU"},
+  
+  {id:"g-full-gold",      cat:"guppy", name:"Full Gold",            desc:"Metallic 24k-gold body",       price:150, unit:"pair", img:"images/products/guppy-24k-gold.png",      video:"https://youtube.com/shorts/63MnGcOuGR8"},
+  {id:"g-jet-black",      cat:"guppy", name:"Jet Black",            desc:"Pure deep-black body",         price:150, unit:"pair", img:"images/products/guppy-jet-black.png",     video:"https://youtube.com/shorts/Qus4bfo7R0w"},
+  {id:"g-dumbo-ear",      cat:"guppy", name:"Platinum Dumbo Ear",   desc:"Large dumbo pectoral fins",    price:150, unit:"pair", img:"images/products/guppy-dumbo-ear.png",     video:""},
+  {id:"g-purple-berry",   cat:"guppy", name:"Purple Berry Dragon",  desc:"Berry-purple dragon scales",   price:150, unit:"pair", img:"", video:""},
+  
   {id:"g-japanese-blue",  cat:"guppy", name:"Japanese Blue",        desc:"Deep metallic-blue body",      price:150, unit:"pair", img:"images/products/guppy-japanese-blue.png", video:""},
   {id:"g-moscow-blue",    cat:"guppy", name:"Moscow Blue",          desc:"Solid royal-blue strain",      price:150, unit:"pair", img:"images/products/guppy-moscow-blue.png",   video:""},
-  {id:"g-albino-red",     cat:"guppy", name:"Albino Full Red",      desc:"Fiery red, red-eyed albino",   price:150, unit:"pair", img:"images/products/guppy-albino-red.png",    video:"https://youtube.com/shorts/z3SI9mQlIbU"},
   {id:"g-hb-silverado",   cat:"guppy", name:"HB Silverado",         desc:"Half-black silver shimmer",    price:150, unit:"pair", img:"", video:""},
   {id:"g-hb-red-rose",    cat:"guppy", name:"HB Red Rose",          desc:"Half-black rose-red tail",     price:150, unit:"pair", img:"images/products/guppy-hb-red-rose.png",   video:""},
   {id:"g-black-eye-koi",  cat:"guppy", name:"Black Eye Koi",        desc:"Koi pattern, dark eyes",       price:150, unit:"pair", img:"images/products/guppy-black-eye-koi.png", video:""},
   {id:"g-see-koi",        cat:"guppy", name:"See Through Koi",      desc:"Translucent koi marbling",     price:150, unit:"pair", img:"", video:""},
-  {id:"g-purple-berry",   cat:"guppy", name:"Purple Berry Dragon",  desc:"Berry-purple dragon scales",   price:150, unit:"pair", img:"", video:""},
-  {id:"g-dumbo-ear",      cat:"guppy", name:"Platinum Dumbo Ear",   desc:"Large dumbo pectoral fins",    price:150, unit:"pair", img:"images/products/guppy-dumbo-ear.png",     video:""},
-  {id:"g-jet-black",      cat:"guppy", name:"Jet Black",            desc:"Pure deep-black body",         price:150, unit:"pair", img:"images/products/guppy-jet-black.png",     video:"https://youtube.com/shorts/Qus4bfo7R0w"},
   {id:"g-white-tuxedo",   cat:"guppy", name:"White Tuxedo",         desc:"Silver-white tuxedo finish",   price:150, unit:"pair", img:"images/products/guppy-white-tuxedo.png",  video:"https://youtube.com/shorts/35XH3YwpJrI"},
   {id:"g-platinum-white", cat:"guppy", name:"Platinum White",       desc:"Bright platinum-white sheen",  price:150, unit:"pair", img:"images/products/guppy-platinum-white.png",video:""},
   {id:"g-chilli-mosaic",  cat:"guppy", name:"Chilli Mosaic Dumbo",  desc:"Mosaic tail, dumbo ears",      price:150, unit:"pair", img:"", video:""},
-  {id:"g-full-gold",      cat:"guppy", name:"Full Gold",            desc:"Metallic 24k-gold body",       price:150, unit:"pair", img:"images/products/guppy-24k-gold.png",      video:"https://youtube.com/shorts/63MnGcOuGR8"},
   {id:"g-yellow-tiger",   cat:"guppy", name:"Half-Moon Yellow Tiger",desc:"Yellow tiger, half-moon tail",price:150, unit:"pair", img:"images/products/guppy-yellow-tiger.png",  video:""},
   {id:"g-mini-tiger",     cat:"guppy", name:"Mini Tiger",           desc:"Compact tiger-striped strain", price:150, unit:"pair", img:"", video:""},
   {id:"g-yellow-pink",    cat:"guppy", name:"Yellow Pink",          desc:"Soft yellow-pink blend",       price:150, unit:"pair", img:"", video:""},
@@ -1066,35 +1069,43 @@ const PRODUCTS = [
   {id:"b-nemo-candy",  cat:"betta", name:"Nemo Candy Betta",    desc:"Multicolour nemo pattern",  price:400, unit:"pair", img:"images/products/betta-nemo-candy.png",    video:""},
   {id:"b-black-samurai",   cat:"betta", name:"Black Samurai Betta", desc:"Rare Collection", price:400, unit:"pair", img:"images/products/betta-black-samurai.png", video:""},
 
+  /* ---------- POLAR PARROT ---------- */
+  {id:"pp-white", cat:"polar", name:"White Polar Parrot", desc:"100% Breeding Pair", price:400, unit:"pair", img:"images/products/white-polar-parrot.png", video:""},
+  {id:"pp-blue", cat:"polar", name:"Blue Polar Parrot", desc:"100% Breeding Pair", price:400, unit:"pair", img:"images/products/blue-polar-parrot.png", video:""},
+
 
   /* ---------- AQUARIUM CARE ---------- */
   {id:"p-betta-tank",   cat:"care", name:"Betta Display Tank", desc:"Compact desktop aquarium",   price:200, unit:"each",  img:"images/products/product-betta-tank.png",     video:""},
-  {id:"p-yellow-med",   cat:"care", name:"Yellow Medicine",    desc:"Anti-fungal water treatment",price:50,  unit:"each",  img:"images/products/product-yellow-medicine.png",video:""},
-  {id:"p-dr-ocean",     cat:"care", name:"Dr. Ocean Anti-Ich", desc:"Treats white-spot disease",  price:20,  unit:"each",  img:"images/products/product-dr-ocean.png",       video:""},
+  {id:"glass-bowl", cat:"care", name:"Fish Glass Bowl", desc:" 6 inch Glass Bowl", price:90, unit:"pc", img:"images/products/fish-glass-bowl.png", video:""},
+  // {id:"p-yellow-med",   cat:"care", name:"Yellow Medicine",    desc:"Anti-fungal water treatment",price:50,  unit:"each",  img:"images/products/product-yellow-medicine.png",video:""},
+  // {id:"p-dr-ocean",     cat:"care", name:"Dr. Ocean Anti-Ich", desc:"Treats white-spot disease",  price:20,  unit:"each",  img:"images/products/product-dr-ocean.png",       video:""},
   {id:"p-mr-blue",      cat:"care", name:"Mr. Blue Tonic",     desc:"Methylene-blue conditioner", price:50,  unit:"each",  img:"images/products/product-mr-blue.png",        video:""},
   {id:"p-farm-food",    cat:"care", name:"Farm Food",          desc:"High-protein fish food",     price:80,  unit:"100g",  img:"images/products/product-farm-food.png",      video:""},
-  {id:"p-shrimp-powder",cat:"care", name:"Shrimp Powder",      desc:"Fry & grow-out feed",        price:50,  unit:"100g",  img:"images/products/product-shrimp-powder.png",  video:""},
+  // {id:"p-shrimp-powder",cat:"care", name:"Shrimp Powder",      desc:"Fry & grow-out feed",        price:50,  unit:"100g",  img:"images/products/product-shrimp-powder.png",  video:""},
 
   /* ---------- LIVE PLANTS · ₹50 ---------- */
   {id:"pl-duckweed-l",  cat:"plant", name:"Duckweed (Large)", desc:"Floating cover plant",    price:50, unit:"portion", img:"images/products/plant-duckweed-large.png", video:""},
   {id:"pl-duckweed-s",  cat:"plant", name:"Duckweed (Small)", desc:"Fine floating greenery",  price:50, unit:"portion", img:"images/products/plant-duckweed-small.png", video:""},
   {id:"pl-hydrilla",    cat:"plant", name:"Hydrilla",         desc:"Fast-growing oxygenator", price:50, unit:"portion", img:"images/products/plant-hydrilla.png",       video:""},
-  {id:"pl-salvinia",    cat:"plant", name:"Salvinia",         desc:"Floating fern, soft cover",price:50,unit:"portion", img:"images/products/plant-salvinia.png",       video:""},
+  // {id:"pl-salvinia",    cat:"plant", name:"Salvinia",         desc:"Floating fern, soft cover",price:50,unit:"portion", img:"images/products/plant-salvinia.png",       video:""},
   {id:"pl-water-lettuce",cat:"plant",name:"Water Lettuce",    desc:"Rosette floating plant",  price:50, unit:"portion", img:"images/products/plant-water-lettuce.png",  video:""},
   {id:"pl-foxtail",     cat:"plant", name:"Foxtail",          desc:"Bushy background plant",  price:50, unit:"portion", img:"images/products/plant-foxtail.png",        video:""},
+  
 ];
 
 const CATS = [
   {key:"all",   label:"All"},
   {key:"guppy", label:"Guppies"},
   {key:"betta", label:"Bettas"},
+  {key:"polar", label:"Polar Parrot"},
   {key:"care",  label:"Aquarium Care"},
   {key:"plant", label:"Live Plants"},
 ];
 
 const CAT_TILES = [
-  {key:"guppy", cls:"guppy", title:"Guppies",       blurb:"Exotic & imported strains", img:"images/products/guppy-24k-gold.png"},
+  {key:"guppy", cls:"guppy", title:"Guppies",       blurb:"Exotic & imported strains", img:"images/products/guppy-yellow-tiger.png"},
   {key:"betta", cls:"betta", title:"Bettas",        blurb:"Show-grade fighter fish",   img:"images/products/betta-full-moon.png"},
+  {key:"polar", cls:"betta", title:"Polar Parrot", blurb:"2 items · White & Blue Breeding Pair", img:"images/products/blue-polar-parrot.png"},
   {key:"care",  cls:"care",  title:"Aquarium Care", blurb:"Food, medicine & tanks",    img:"images/products/product-betta-tank.png"},
   {key:"plant", cls:"plant", title:"Live Plants",   blurb:"Floating greenery & cover", img:"images/products/plant-foxtail.png"},
 ];
